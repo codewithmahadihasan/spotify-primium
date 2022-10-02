@@ -1,0 +1,9 @@
+.navbar {
+  font-family: "Josefin Sans", sans-serif;
+}
+.navbar a:hover {
+  color: #1ed741;
+}
+.class {
+  color: #1ed741;
+}
