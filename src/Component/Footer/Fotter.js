@@ -50,7 +50,7 @@ const Fotter = () => {
                     </div>
                     <div className='text-gray-400'>
                         <i class="fa-solid fa-earth-americas"></i> Bangladesh
-                        <p className='mt-2'>Copyright © 2022 - All right reserved</p>
+                        <p className='mt-2'>Copyright © 2022 - Mahadi Hasan</p>
                     </div>
                 </div>
             </footer>
