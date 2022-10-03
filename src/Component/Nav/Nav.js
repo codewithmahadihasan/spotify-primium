@@ -3,7 +3,7 @@ import './Nav.css'
 
 const Nav = () => {
     return (
-        <div className="navbar bg-black text-white px-36  py-2">
+        <div className="navbar bg-black text-white md:px-36  py-2">
             <div className="flex-1">
                 <a className="btn btn-ghost normal-case text-3xl flex items-center"> <i className="fa-brands fa-spotify text-5xl"></i><h1 className='ml-2'>Spotify </h1> </a>
 
