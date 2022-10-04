@@ -7,7 +7,7 @@ const Cards = ({ pri }) => {
 
     return (
         <div>
-            <div class="rounded-md w-72 bg-base-100 hover:bg-blue-100">
+            <div class="rounded-xl w-72 bg-base-100 mx-auto">
                 <div class="card-body">
                     <h1 className='bg-blue-500 p-1 w-1/2 text-center font-bold text-white rounded'>1 month free</h1>
                     <h2 class="card-title font-bold">{pri.name}</h2>
@@ -15,15 +15,15 @@ const Cards = ({ pri }) => {
                     <hr
                         className='h-0.5 bg-black'
                     />
-                    <div className='h-72'>
+                    <div className='md:h-72'>
                         {
                             feautres.map(feture => <CardShap feautres={feture}></CardShap>)
                         }
                     </div>
                     <div class=" mx-auto text-white">
-                        <button class="bg-black px-14 py-3  uppercase font-semibold  rounded-3xl">Get Started</button>
+                        <button class="bg-black px-14 py-3 hover:text-green-500  uppercase font-semibold  rounded-3xl">Get Started</button>
                     </div>
-                    <div>
+                    <div className='text-xs'>
                         <a className="underline" href="Terms and conditions apply."> Terms and conditions apply. </a> <p> 1 month free not available for users who have already tried Premium.</p>
                     </div>
                 </div>

@@ -63,14 +63,18 @@ const Primium = () => {
                     <img className='w-8 rounded   h-5' src="https://www.watsonswine.com/_ui/desktop/theme-wine/img/img_payment_card_mastercard.png" alt="" />
                 </div>
             </div>
-            <div className='flex justify-center gap-4 flex-col md:flex-row'>
+            <div className='flex justify-center gap-4 flex-col md:flex-row '>
 
                 {
                     primiums.map(pri => <Cards key={pri.id} pri={pri}></Cards>)
                 }
             </div>
         </div>
+
+
     );
+
+
 };
 
 export default Primium;
