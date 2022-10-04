@@ -7,7 +7,7 @@ const Cards = ({ pri }) => {
 
     return (
         <div>
-            <div class="rounded-xl w-72 bg-base-100 mx-auto">
+            <div class="rounded-xl md:w-72 w-80 bg-base-100 mx-auto">
                 <div class="card-body">
                     <h1 className='bg-blue-500 p-1 w-1/2 text-center font-bold text-white rounded'>1 month free</h1>
                     <h2 class="card-title font-bold">{pri.name}</h2>

@@ -48,7 +48,7 @@ const Fotter = () => {
                         <a target="_blank" href="/">About Ads</a>
                         <a target="_blank" href="/"> Additional CA Privacy Diisclosures</a>
                     </div>
-                    <div className='text-gray-400'>
+                    <div className='text-gray-400 mt-3 md:mt-0'>
                         <i className="fa-solid fa-earth-americas"></i> Bangladesh
                         <p className='mt-2'>Copyright © 2022 - Mahadi Hasan</p>
                     </div>

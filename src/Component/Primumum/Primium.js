@@ -52,8 +52,8 @@ const Primium = () => {
         }
     ]
     return (
-        <div className=' bg-gray-300 py-32 px-20'>
-            <div className='text-center mb-10'>
+        <div className=' bg-gray-300 py-20'>
+            <div className='text-center  px-20 mb-16'>
                 <h1 className="text-5xl font-bold mb-4">Pick your Premium</h1>
                 <p>Listen without limits on your phone, speaker, and other devices.</p>
                 <div className='flex justify-center gap-4 mt-4'>
@@ -63,7 +63,7 @@ const Primium = () => {
                     <img className='w-8 rounded   h-5' src="https://www.watsonswine.com/_ui/desktop/theme-wine/img/img_payment_card_mastercard.png" alt="" />
                 </div>
             </div>
-            <div className='flex justify-center gap-4 flex-col md:flex-row '>
+            <div className='flex justify-center gap-6 flex-col md:flex-row '>
 
                 {
                     primiums.map(pri => <Cards key={pri.id} pri={pri}></Cards>)
